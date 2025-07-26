@@ -1,0 +1,17 @@
+{
+  "id": "my_custom_rpg_system",
+  "name": "My Custom RPG System",
+  "version": "1.0.0",
+  "description": "A homebrew RPG system featuring Arcane Marshal, Shadowbinder, and Tactician Mage classes.",
+  "author": "Emmett Davenport",
+  "folders": {
+    "classes": "classes"
+  },
+  "files": {
+    "classes": [
+      "arcane_marshal.json",
+      "shadowbinder.json",
+      "tactician_mage.json"
+    ]
+  }
+}
