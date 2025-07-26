@@ -1,0 +1,39 @@
+{
+  "id": "arcane_marshal",
+  "name": "Arcane Marshal",
+  "description": "A tactical leader who blends arcane might with battlefield command.",
+  "hit_die": "d10",
+  "proficiencies": {
+    "armor": ["light", "medium", "shields"],
+    "weapons": ["simple", "martial"],
+    "tools": [],
+    "saving_throws": ["Intelligence", "Charisma"],
+    "skills": ["Arcana", "Insight", "Persuasion", "History"]
+  },
+  "starting_equipment": [
+    "a martial weapon and a shield or two simple weapons",
+    "a scholar's pack or diplomat's pack",
+    "leather armor and a spellbook"
+  ],
+  "features": [
+    {
+      "level": 1,
+      "name": "Arcane Orders",
+      "description": "You learn 2 cantrips from the wizard spell list and 1 1st-level spell. You can cast spells using Intelligence."
+    },
+    {
+      "level": 2,
+      "name": "Commander's Rally",
+      "description": "You can use a bonus action to grant an ally within 30 ft a reaction to move or make an attack."
+    }
+  ],
+  "spellcasting": {
+    "cantrips_known": [2, 2, 3, 3, 3, 3, 3, 3, 3, 3],
+    "spells_known": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "spell_slots": {
+      "1": [2, 3, 3, 4, 4, 4, 4, 4, 4, 4],
+      "2": [0, 0, 2, 3, 3, 3, 3, 3, 3, 3]
+    },
+    "spell_list": "wizard"
+  }
+}
