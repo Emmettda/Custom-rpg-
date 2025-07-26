@@ -1,0 +1,38 @@
+{
+  "id": "shadowbinder",
+  "name": "Shadowbinder",
+  "description": "Masters of dark eldritch powers, Shadowbinders twist shadows to bind and curse their enemies.",
+  "hit_die": "d8",
+  "proficiencies": {
+    "armor": ["light"],
+    "weapons": ["simple"],
+    "saving_throws": ["Wisdom", "Charisma"],
+    "skills": ["Arcana", "Stealth", "Deception", "Investigation"]
+  },
+  "starting_equipment": [
+    "a dagger",
+    "a component pouch",
+    "leather armor"
+  ],
+  "features": [
+    {
+      "level": 1,
+      "name": "Eldritch Hex",
+      "description": "You can curse a target, imposing disadvantage on ability checks of your choice."
+    },
+    {
+      "level": 2,
+      "name": "Shadow Step",
+      "description": "Teleport between shadows within 30 feet as a bonus action."
+    }
+  ],
+  "spellcasting": {
+    "cantrips_known": [3, 3, 3, 4, 4, 4, 4, 4, 4, 4],
+    "spells_known": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "spell_slots": {
+      "1": [2, 3, 4, 4, 4, 4, 4, 4, 4, 4],
+      "2": [0, 0, 2, 3, 3, 3, 3, 3, 3, 3]
+    },
+    "spell_list": "warlock"
+  }
+}
